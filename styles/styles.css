@@ -238,3 +238,13 @@ img {
     background-color: rgba(0, 0, 0, 0.7);
     border-radius: 10px;
 }
+ 
+.box {
+    width: 200px;
+    height: 100px;
+    padding: 20px;
+    border: 2px solid #007bff;
+    margin: 10px;
+    background-color: #f7f7f7;
+    box-sizing: border-box;
+}
