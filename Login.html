@@ -1,39 +1,58 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-    <link rel="stylesheet" href="styles/styles.css">
-    <title>Página de Login</title>
+  <link rel="stylesheet" href="/styles/styles.css">
+  <script src="index.js" defer></script>
+  <title>Página de Login</title>
 </head>
+
 <body background="https://i.pinimg.com/originals/6a/e4/0b/6ae40b17c01bf102aca03dce775c85d6.jpg">
-    <div class="faixa">
-        <img class="imagem-slide" height="380" width="600" src="images/logo1.png" alt="Slide 3" />
+  <div class="faixa">
+    <img class="imagem-slide" height="380" width="600" src="/images/logo1.png" alt="Slide 3" />
+    <div class="botoes">
+      <button class="botoes" onclick="window.location.href='./about.html'">
+        Sobre Nós
+      </button>
+      <button class="botoes" onclick="window.location.href='./produtos.html'">
+        Produtos
+      </button>
+      <button class="botoes" onclick="window.location.href='./Cadastro.html'">
+        Cadastro
+      </button>
+      <button class="botoes" onclick="window.location.href='./index.html'">
+        Inicial
+      </button>
+
     </div>
-    <div id="menu4">
-        <button onclick="window.location.href='./about.html'"> Sobre Nós </button>
-        <button onclick="window.location.href='./produtos.html'"> Produtos </button>
-        <button onclick="window.location.href='./index.html'"> Pagina Inicial </button>
-        <button onclick="window.location.href='./Cadastro.html'"> Pagina de Cadastramento </button>
-    </div>
-<body>
-        
-<br>
+  </div>
+
+  <body>
+
+    <br>
     <div class="container">
-        
-        <h2>Página de Login</h2>
-        
-        <form>
-            <div class="form-group">
-                <label for="username">Usuário:</label>
-                <input type="text" id="username" name="username" required>
-            </div>
-            <div class="form-group">
-                <label for="password">Senha:</label>
-                <input type="password" id="password" name="password" required>
-            </div>
-            <div class="form-group">
-                <button type="submit">Entrar</button>
-            </div>
-        </form>
+
+      <h2>Página de Login</h2>
+
+      <form>
+        <div class="form-group">
+          <label for="login-email">Usuário:</label>
+          <input type="email" id="login-email" name="email" required>
+        </div>
+        <div class="form-group">
+          <label for="login-senha">Senha:</label>
+          <input type="password" id="login-senha" name="password" required>
+        </div>
+        <br>
+        <div id="result"></div>
+        <br>
+        <div class="form-group">
+          <button type="button" onclick="login()">Entrar</button>
+      </form>
+      <br>
+      <br>
+      <button onclick="window.location.href='./Cadastro.html'">Não tenho Cadastro</button>
     </div>
-</body>
+  </body>
+
 </html>
