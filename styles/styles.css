@@ -1,23 +1,23 @@
-#menu {
+.menu {
     text-align: center;
 }
 
-#coisa {
+.coisa {
     text-align: center;
 }
 
-#pagina {
+.pagina {
     text-align: center;
 }
 
-#menu2 {
+.menu2 {
     text-align: center;
 }
 
-#titulo1 {
+.titulo1 {
     text-align: center;
 }
-#conteudo{
+.conteudo{
     text-align: center;
 }
 body {
@@ -62,12 +62,7 @@ body {
     cursor: pointer;
 }
 
-#menu2 {
-    text-align: center;
-    margin-top: 20px;
-}
-
-#menu2 button {
+.menu2 button {
     background-color: #000000;
     color: #fff;
     padding: 10px 20px;
@@ -77,10 +72,10 @@ body {
     cursor: pointer;
     margin-right: 10px;
 }
-#menu4 {
+.menu4 {
     text-align: center;
 }
-#menu button {
+.menu button {
     background-color: #000000;
     color: #fff;
     padding: 10px 20px;
@@ -90,7 +85,7 @@ body {
     cursor: pointer;
     margin-right: 10px;
 }
-#menu4 button {
+.menu4 button {
     background-color: #000000;
     color: #fff;
     padding: 10px 20px;
@@ -141,11 +136,11 @@ body {
     font-size: 16px;
     cursor: pointer;
 }
-#menu6 {
+.menu6 {
     text-align: center;
     margin-top: 20px;
 }
-#menu6 button {
+.menu6 button {
     background-color: #000000;
     color: #fff;
     padding: 10px 20px;
@@ -170,17 +165,12 @@ body {
     padding: 0;
 }
 
-#image-and-buttons-container {
-    display: flex;
+.image-and-buttons-container {
     align-items: center;
     padding: 20px;
 }
 
-#menu {
-    margin-right: 20px;
-}
-
-#pagina {
+.pagina {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
@@ -210,40 +200,49 @@ img {
     margin: 20px auto;
     border-radius: 5px;
 }
-#conteudo1 {
+.conteudo1 {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
     background-color: rgba(0, 0, 0, 0.7);
     border-radius: 10px;
 }
-#conteudo2 {
+.conteudo2 {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
     background-color: rgba(0, 0, 0, 0.7);
     border-radius: 10px;
 }
-#conteudo3 {
+.conteudo3 {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
     background-color: rgba(0, 0, 0, 0.7);
     border-radius: 10px;
 }
-#conteudo4 {
+.conteudo4 {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
     background-color: rgba(0, 0, 0, 0.7);
     border-radius: 10px;
 }
+.faixa1 {
+    background-color: linear-gradient(135deg, #5da2ff, #b066fe);
+    color: #000000;
+    padding: 10px;
+    text-align: center;
+}
+.botoes {
+    background-color:  #da1616;
+    border: none;
+    justify-content: center;
+    text-align: center;
+    height: 5vh;
+  }
+
  
-box {
-    width: 200px;
-    height: 100px;
-    padding: 20px;
-    border: 2px solid #007bff;
-    margin: 10px;
-    box-sizing: border-box;
-}
+  .botoes:hover {
+    background-color: #ffffff;
+  }
